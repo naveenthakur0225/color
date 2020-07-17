@@ -1,6 +1,6 @@
 <?php
 
-namespace Liquidpineapple;
+namespace Navipack;
 
 use InvalidArgumentException;
 
