@@ -1,5 +1,5 @@
 {
-    "name": "liquidpineapple/color",
+    "name": "navipack/color",
     "description": "A micro PHP package to convert and alter colors! 🌈",
     "type": "library",
     "require-dev": {
@@ -15,7 +15,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Liquidpineapple\\": "src/"}
+        "psr-4": {"Navipack\\": "src/"}
     },
     "autoload-dev": {
         "psr-4": {
