@@ -1,21 +1,3 @@
-<p align="center">
-<a href="https://liquidpineapple.net"><img src="http://liquidpineapple.o.auroraobjects.eu/img/color.jpg" /></a>
-</p>
-
-<p align="center">
-<a href="https://travis-ci.org/liquidpineapple/color"><img src="https://travis-ci.org/liquidpineapple/color.svg" alt="Build Status"></a>
-<a href="https://styleci.io/repos/94641763"><img src="https://styleci.io/repos/94641763/shield?branch=master" alt="StyleCI"></a>
-<a href="https://codeclimate.com/github/liquidpineapple/color/coverage"><img src="https://codeclimate.com/github/liquidpineapple/color/badges/coverage.svg" /></a>
-</p>
-<p align="center">
-<a href="https://waffle.io/liquidpineapple/color?utm_source=badge"><img src="https://badge.waffle.io/liquidpineapple/color.png?label=ready&title=Ready" alt="Stories in Ready" /></a>
-<a href="https://waffle.io/liquidpineapple/color?utm_source=badge"><img src="https://badge.waffle.io/liquidpineapple/color.png?label=In%20Progress&title=In%20Progress" alt="Stories in Progress" /></a>
-<a href="https://waffle.io/liquidpineapple/color?utm_source=badge"><img src="https://badge.waffle.io/liquidpineapple/color.png?label=done&title=Done" alt="Stories in Done" /></a>
-</p>
-<p align="center">
-A micro PHP package to convert and alter colors! 🔥
-</p>
-
 Contents of this document:
 
 * [Installation](#installation)
@@ -27,7 +9,7 @@ Contents of this document:
 You can install this package through composer. To install the latest version in to your project use the following command:
 
 ```bash
-composer require liquidpineapple/color
+composer require navipack/color
 ```
 
 This package requires PHP 7.0 or higher.
@@ -57,7 +39,7 @@ You can use this package to convert colors to different notations. An example mi
 ```php
 <?php
 
-use Liquidpineapple\Color;
+use Navipack\Color;
 
 $rgbColor = Color::fromHEX('#1E90FF')->toRGB();
 // [30, 144, 255]
@@ -70,7 +52,7 @@ In some cases you might want an output like `rgb(30, 144, 255)`. This can be don
 ```php
 <?php
 
-use Liquidpineapple\Color;
+use Navipack\Color;
 
 $rgbColor = Color::fromHEX('#1E90FF')->toRGBString();
 // rgb(30, 144, 255)
@@ -108,7 +90,7 @@ The amount in both message is a percentage. An example:
 ```php
 <?php
 
-use Liquidpineapple\Color;
+use Navipack\Color;
 
 $primaryColor = '#1E90FF';
 
@@ -129,7 +111,7 @@ The amount in both message is a percentage. An example:
 ```php
 <?php
 
-use Liquidpineapple\Color;
+use Navipack\Color;
 
 $dullColor = '#C44';
 
